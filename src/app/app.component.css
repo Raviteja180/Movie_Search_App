@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+.movieSearch{
+    background-color: rgb(0, 0, 0);
+}
+.navBar{
+    display:flex;
+    justify-content: space-between;
+    border:1px solid black;
+    padding:10px;
+    background-color: rgb(2, 2, 2);
+    color:white;
+    font-size:25px;
+    background: rgb(27, 30, 80);
+}
+a{
+    text-decoration:none;
+    color:white;
+    margin-right:50px;
+}
+.searchName p{
+    color:black;
+}
+.searchSection{
+    display: flex;
+    border:1px solid black;
+    margin:0px;
+    padding:100px;
+    font-size:25px;
+    justify-content:space-around;
+    background-color: rgb(177, 173, 194);
+}
+input{
+    padding:5px;
+    font-size:20px;
+    margin-right:5px;
+    border-radius:5px;
+    border:none;
+}
+.searchBox button{
+    font-size:20px;
+    /* border */
+    padding:5px;
+    border-radius:5px;
+    border:none;
+}
+.searchBox button:hover{
+    background-color: rgb(202, 202, 202);
+}
+.blockForMovies{
+    display: grid;
+    grid-template-columns: 400px 400px 400px ;
+    /* grid-template-rows: 1fr; */
+    grid-gap:20px 50px;
+    /* border:1px solid white; */
+    color:white;
+    padding-left: 100px;
+    padding-top:20px;
+    
+    
+}
+.eachMovie{
+    background-color: rgb(255, 254, 254);
+    color:black;
+    height:500px;
+    width:400px;
+    /* border:1px solid black; */
+    border-radius:5px;
+}
+.movieTitle{
+    font-size:30px;
+    border-top:10px solid rgb(161, 143, 161);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.movieRelease{
+
+}
+.movieOverview{
+    font-size:15px;
+    line-height: 2;
+
+    font-family: 'Open Sans', sans-serif;
+}
+.movieTitle,.movieRelease,.movieOverview{
+    /* margin-bottom:10px; */
+    padding:20px;
+    padding-top:15px;
+    text-align: justify;
+}
